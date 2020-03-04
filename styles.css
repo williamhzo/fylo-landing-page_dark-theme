@@ -15,6 +15,13 @@ body{
 
 a, ul, h1, h2, h3{
     font-family: 'raleway', Arial, sans-serif;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 2.3em;
+    line-height: 1.5em;
+    margin: 35px auto;
 }
 
 a, ul{
@@ -44,6 +51,49 @@ header{
 .nav-bar a{
     margin: 0 25px;
     padding: 10px;
+    font-weight: 400;
+}
+
+/* H E R O */
+
+#hero{
+    display: flex;
+    justify-content: center;
+}
+
+#hero article{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#hero img{
+    width: 100%;
+}
+
+#hero p{
+    width: 75%;
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+
+.btn{
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    padding: 20px;
+    border-radius: 35px;
+    font-size: 1.2em;
+}
+
+.main-cta{
+    margin: 35px auto;
+    width: 250px;
+}
+
+.main-cta:hover{
+    background-image: linear-gradient(to left, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
 }
 
 /* F O O T E R */
@@ -53,5 +103,5 @@ header{
 }
 
 .attribution a { 
-        color: hsl(228, 45%, 44%); 
+    color: hsl(228, 45%, 44%); 
 }
