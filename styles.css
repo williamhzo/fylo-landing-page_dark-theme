@@ -1,11 +1,50 @@
 
-/* H E A D E R */
+/* G E N E R A L */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&display=swap'); /* font */
 
 body{
     background-color: hsl(218, 28%, 13%);
+    padding: 0;
+    margin: 0;
     color: hsl(0, 0%, 100%);
+    font-family: 'open sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
 }
 
+a, ul, h1, h2, h3{
+    font-family: 'raleway', Arial, sans-serif;
+}
+
+a, ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+a:visited{
+    color: inherit; /* preventing color change after click */
+}
+
+/* H E A D E R */
+
+header{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar a{
+    margin: 0 25px;
+    padding: 10px;
+}
 
 /* F O O T E R */
 
