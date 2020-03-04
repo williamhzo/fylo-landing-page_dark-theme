@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&display=swap'); /* font */
 
 body{
-    background-color: hsl(218, 28%, 13%);
+    background-color: hsl(217, 28%, 15%);
     padding: 0;
     margin: 0;
     color: hsl(0, 0%, 100%);
@@ -21,16 +21,13 @@ a, ul, h1, h2, h3{
 h2{
     font-size: 2.3em;
     line-height: 1.5em;
-    margin: 35px auto;
+    margin: 25px auto;
 }
 
 a, ul{
     text-decoration: none;
     list-style: none;
-}
-
-a:visited{
-    color: inherit; /* preventing color change after click */
+    color: hsl(0, 0%, 100%);
 }
 
 /* H E A D E R */
@@ -108,7 +105,7 @@ header{
 
 .box{
     width: 375px;
-    margin: 50px 30px;
+    margin: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,10 +121,72 @@ header{
     margin-bottom: 15px;
 }
 
+/* P R O D U C T */
+
+#product{
+    margin: 50px auto;
+}
+
+.demo-link{ 
+    color: hsl(176, 68%, 64%);
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+}
+
+#product img{
+}
+
+/* T E S T I M O N I A L S */
+
+#testimonials{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px;
+}
+
+.quote-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: hsl(219, 30%, 18%);
+    width: 300px;
+    padding:20px 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px hsl(219, 30%, 20%);}
+
+.quote-box img{
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.quote-box q{
+    margin-bottom: 25px;
+}
+
+.quote-box p{
+    margin: 0;
+}
+
+.author-role{
+    font-style: italic;
+}
+
+.author-name{
+    font-weight: 700;
+}
+
+.author-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 /* F O O T E R */
 
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
 
 .attribution a { 
