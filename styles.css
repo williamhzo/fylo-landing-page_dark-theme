@@ -96,6 +96,34 @@ header{
     background-image: linear-gradient(to left, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
 }
 
+/* F E A T U R E S */
+
+#features{
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 85%;
+}
+
+.box{
+    width: 375px;
+    margin: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.box p{
+    margin: 0;
+}
+
+#features img{
+    height: 80px;
+    margin-bottom: 15px;
+}
+
 /* F O O T E R */
 
 .attribution { 
