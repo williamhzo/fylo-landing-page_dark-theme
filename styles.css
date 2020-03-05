@@ -37,7 +37,7 @@ a, ul{
 /* H E A D E R */
 
 header{
-    padding: 30px;
+    padding: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -247,19 +247,106 @@ header{
 .form input{
     padding: 15px 15px 15px 20px;
     font-size: 0.9em;
-    width: 70%;
+    width: 65%;
     border-radius: 35px;
     border: none;
 }
 
 .form a{
-    padding: 15px 25px;
+    padding: 15px 30px;
     font-size: 0.9em;
 }
 
 /* F O O T E R */
 
+#main-footer{
+    margin: 75px;
+}
 
+.container{
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.location-info{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.location-info img{
+    margin-top: 2px;
+    width: 20px;
+
+}
+
+.location-info p{
+    margin:0 0 0 20px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact p{
+    margin: 0 0 0 20px;;
+}
+
+.contact img{
+    width: 20px;
+}
+
+.phone{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    margin-bottom: 20px;
+}
+
+.contact img{
+    width: 20px;
+}
+
+.email{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.site-map{
+    
+}
+
+.site-map a{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.site-map ul{
+    margin: 0;
+    padding: 0;
+    height: 160px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    font-size: 1.5em;
+}
 
 .attribution { 
     font-size: 11px; 
