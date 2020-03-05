@@ -4,13 +4,17 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&display=swap'); /* font */
 
 body{
-    background-color: hsl(217, 28%, 15%);
+    background-color: hsl(218, 28%, 13%);
     padding: 0;
     margin: 0;
     color: hsl(0, 0%, 100%);
     font-family: 'open sans', Arial, sans-serif;
     font-weight: 400;
     font-size: 14px;
+}
+
+section{
+    margin: 150px auto;
 }
 
 a, ul, h1, h2, h3{
@@ -56,6 +60,7 @@ header{
 #hero{
     display: flex;
     justify-content: center;
+    margin: 50px auto;
 }
 
 #hero article{
@@ -96,7 +101,6 @@ header{
 /* F E A T U R E S */
 
 #features{
-    margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -124,7 +128,19 @@ header{
 /* P R O D U C T */
 
 #product{
-    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-text{
+    width: 550px;
+    padding-left: 50px;
+}
+
+.cta-text h2{
+    margin: 0;
+    text-align:left;
 }
 
 .demo-link{ 
@@ -140,19 +156,33 @@ header{
 
 #testimonials{
     display: flex;
-    justify-content: space-around;
-    margin: 90px;
+    justify-content: center;
+    position: relative;
+}
+
+.quote-container{
+    display: flex;
+    justify-content: center;
+}
+
+#testimonials > img{
+    position: absolute;
+    left: 130px;
+    top: -35px;
+    z-index: -1;
 }
 
 .quote-box{
+    margin: 0 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     background-color: hsl(219, 30%, 18%);
     width: 300px;
     padding:20px 30px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 2px hsl(219, 30%, 20%);}
+    border-radius: 3px;
+    box-shadow: 5px 5px 2px hsl(219, 30%, 20%);
+}
 
 .quote-box img{
     border-radius: 50%;
@@ -182,7 +212,54 @@ header{
     align-items: center;
 }
 
+/* A C C E S S  C A R D */
+
+#access-card{
+    margin: 150px auto;
+    padding: 40px 60px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 28%, 15%);
+    box-shadow: 5px 5px 2px hsl(219, 30%, 10%);
+    border-radius: 3px;
+}
+
+#access-card p{
+    width: 90%;
+    text-align: center;
+    margin: 30px auto;
+}
+
+#access-card h3{
+    font-size: 2em;
+    margin: 0;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form input{
+    padding: 15px 15px 15px 20px;
+    font-size: 0.9em;
+    width: 70%;
+    border-radius: 35px;
+    border: none;
+}
+
+.form a{
+    padding: 15px 25px;
+    font-size: 0.9em;
+}
+
 /* F O O T E R */
+
+
 
 .attribution { 
     font-size: 11px; 
